@@ -1,0 +1,112 @@
+body {
+	background: #f9f9f9;
+}
+/*---Page---*/
+.main {
+	font-size: 18px;
+	width: 950px;
+	height: 900px;
+    padding: 60px;
+    margin: auto;
+    background: #ffffff;
+	border-left: 2px solid #dbdbdb;
+	border-right: 2px solid #dbdbdb;
+}
+
+/*---Logo---*/
+.logo {
+	display: block;
+	margin: 20px 0px;
+}
+
+
+/*---header---*/
+.header {
+background: #545454;
+width: 890px;
+height: 40px;
+font-size: 12px;
+margin: 25px 0px;
+}
+
+.menu {
+	background: #545454;
+	color: white;
+	display: inline-block;
+	padding: 14px 27px;
+	underline: non;
+	text-decoration: none;
+}
+
+.menu:hover {
+	background: #363636;
+	border-left: 1px solid grey;
+	border-right: 1px solid grey;
+}
+
+
+/*---Left_Menu---*/
+.left_menu {
+	float: left;
+	display: block;
+	width: 190px;
+}
+
+
+.menu_l {
+		color: #000;
+		display: block;
+		font-size: 12px;
+		underline: non;
+		text-decoration: none;
+		border: 1px solid grey;
+		padding: 10px 20px;
+	}
+
+	.menu_l:hover {
+		background: #f9f9f9;
+		padding: 10px 40px;
+	}
+
+
+/*---Content---*/
+.content {
+	display: block;
+	float: right;
+	width: 602px;
+	padding: 0px 60px;
+}
+
+img.cont {
+	padding: 50px 50px;
+	border: 1px solid grey;
+}
+
+.cont_text {
+	margin: 25px;
+}
+/*----footer----*/
+.footer {
+	clear: both;
+	background: #e1e1e1;
+	width: 890px;
+	height: 40px;
+	font-size: 12px;
+	margin: 25px 0px;
+}
+
+.menu_f {
+	color: black;
+	display: inline-block;
+	padding: 14px 27px;
+	text-decoration: none;
+}
+
+.footer::after {
+	content: '2014 © All rights reserved';
+	padding: 0px 340px;
+}
+
+.menu_f:hover {
+		text-decoration: underline;
+	}
