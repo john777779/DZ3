@@ -1,6 +1,10 @@
 body {
 	background: #f9f9f9;
 }
+
+a, h1, p {
+	font-family: Arial, sans-serif;
+}
 /*---Page---*/
 .main {
 	font-size: 18px;
@@ -26,14 +30,14 @@ background: #545454;
 width: 890px;
 height: 40px;
 font-size: 12px;
-margin: 25px 0px;
+margin: 40px 0px;
 }
 
 .menu {
 	background: #545454;
 	color: white;
 	display: inline-block;
-	padding: 14px 27px;
+	padding: 14px 37px;
 	text-decoration: none;
 }
 
@@ -48,20 +52,27 @@ margin: 25px 0px;
 .left_menu {
 	float: left;
 	display: block;
-	width: 190px;
+	width: 240px;
+
 }
 
 
 .menu_l {
-		color: #000;
+		color: #656363;
 		display: block;
 		font-size: 12px;
 		text-decoration: none;
 		border: 1px solid grey;
+		border-bottom: none;
 		padding: 10px 20px;
 	}
 
+	.left_menu ul li:last-child {
+		border-bottom: 1px solid grey;
+	}
+
 	.menu_l:hover {
+		color: #2c2c2c;
 		background: #f9f9f9;
 		padding: 10px 40px;
 	}
@@ -70,9 +81,9 @@ margin: 25px 0px;
 /*---Content---*/
 .content {
 	display: block;
-	float: right;
-	width: 602px;
-	padding: 0px 60px;
+	float: left;
+	width: 590px;
+	padding: 0px 48px 55px;
 }
 
 img.cont {
@@ -81,7 +92,12 @@ img.cont {
 }
 
 .cont_text {
-	margin: 25px;
+	margin-top: 10px;
+	padding: 25px;
+	color: #2c2c2c;
+	font-size: 10px;
+	line-height: 16px;
+
 }
 /*----footer----*/
 .footer {
