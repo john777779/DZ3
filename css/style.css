@@ -8,9 +8,9 @@ a, h1, p {
 /*---Page---*/
 .main {
 	font-size: 18px;
-	width: 950px;
+	width: 968px;
 	height: 900px;
-    padding: 60px;
+    padding: 46px;
     margin: auto;
     background: #ffffff;
 	border-left: 2px solid #dbdbdb;
@@ -27,7 +27,7 @@ a, h1, p {
 /*---header---*/
 .header {
 background: #545454;
-width: 890px;
+width: 965px;
 height: 40px;
 font-size: 12px;
 margin: 40px 0px;
@@ -37,7 +37,8 @@ margin: 40px 0px;
 	background: #545454;
 	color: white;
 	display: inline-block;
-	padding: 14px 37px;
+	padding: 11px 46px;
+	font-size: 12px;
 	text-decoration: none;
 }
 
@@ -64,7 +65,7 @@ margin: 40px 0px;
 		text-decoration: none;
 		border: 1px solid grey;
 		border-bottom: none;
-		padding: 10px 20px;
+		padding: 13px 20px;
 	}
 
 	.left_menu ul li:last-child {
@@ -82,12 +83,12 @@ margin: 40px 0px;
 .content {
 	display: block;
 	float: left;
-	width: 590px;
-	padding: 0px 48px 55px;
+	width: 680px;
+	padding: 0 0 54px 48px;
 }
 
 img.cont {
-	padding: 50px 50px;
+	padding: 44px 88px;
 	border: 1px solid grey;
 }
 
@@ -95,31 +96,31 @@ img.cont {
 	margin-top: 10px;
 	padding: 25px;
 	color: #2c2c2c;
-	font-size: 10px;
-	line-height: 16px;
+	font-size: 12px;
+	line-height: 21px;
 
 }
 /*----footer----*/
 .footer {
 	clear: both;
 	background: #e1e1e1;
-	width: 890px;
+	width: 967px;
 	height: 40px;
 	font-size: 12px;
-	margin: 25px 0px;
+
 }
 
 .menu_f {
 	color: black;
 	display: inline-block;
-	padding: 14px 27px;
+	padding: 14px 45px;
 	text-decoration: none;
 }
 
 .copy {
 	float: right;
 	display: block;
-	padding: 15px 20px;
+	padding: 14px 38px;
 }
 
 .menu_f:hover {
