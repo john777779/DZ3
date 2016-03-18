@@ -9,7 +9,6 @@ a, h1, p {
 .main {
 	font-size: 18px;
 	width: 968px;
-	height: 900px;
     padding: 46px;
     margin: auto;
     background: #ffffff;
@@ -37,7 +36,7 @@ margin: 40px 0px;
 	background: #545454;
 	color: white;
 	display: inline-block;
-	padding: 11px 46px;
+	padding: 14px 46px;
 	font-size: 12px;
 	text-decoration: none;
 }
@@ -64,18 +63,18 @@ margin: 40px 0px;
 		font-size: 12px;
 		text-decoration: none;
 		border: 1px solid grey;
-		border-bottom: none;
+		border-top: none;
 		padding: 13px 20px;
 	}
 
-	.left_menu ul li:last-child {
-		border-bottom: 1px solid grey;
+	.left_menu ul li:first-child {
+		border-top: 1px solid grey;
 	}
 
 	.menu_l:hover {
 		color: #2c2c2c;
 		background: #f9f9f9;
-		padding: 10px 40px;
+		padding-left: 40px;
 	}
 
 
@@ -119,7 +118,6 @@ img.cont {
 
 .copy {
 	float: right;
-	display: block;
 	padding: 14px 38px;
 }
 
